@@ -4,7 +4,72 @@
         display: none;
     }
 }
-/******************Actual page******************/
+/*****************Backgrounds********************/
+
+.main-section {
+    background-image: url(../images/other/homepage-featured-new-1920x745.jpg);
+    background-size: contain;
+    height: 745px;
+    background-repeat: no-repeat;
+}
+.enhance {
+    background-image:  url(../images/other/ic_EI_cloud_2_home_page.png)
+                        ,url(../images/other/home-tv-service-bg1.png);
+}
+.deploy {
+    background-image: url(../images/other/ic-stb-screens.png) ,
+                       url(../images/other/home-tv-service-bg2.png);
+}
+.tv {
+    background-image: url(../images/other/screen_whos_on.jpg );
+}
+.schedual-meeting {
+    background-image: url(../images/other/img-event-IBC.jpg);
+    background-repeat: no-repeat;
+    background-position: right 0 top 30px;
+    background-repeat: no-repeat;
+}
+.demo {
+    background-image: url(../images/other/screen_demo.jpg);
+    background-repeat: no-repeat;
+}
+/********************blog*******************/
+.experience {
+    background-image: url(../images/blog/ibc_post_EI-750x508.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.what-we-leared {
+    background-image: url(../images/blog/IMG_9294-750x563.jpeg);
+    background-repeat: no-repeat;
+    background-position: 30% 0;
+}
+.big-data {
+    background-image: url(../images/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg);
+    background-repeat: no-repeat;
+}
+.infusion {
+    background-image: url(../images/blog/post_tv_connect-750x508.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.quality {
+    background-image: url(../images/blog/post_quality-750x508.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+
+}
+
+/*******************Actual page*******************/
+li {
+    list-style: none;
+}
+aside li {
+    width: 16.6%;
+    height: 400px;
+    display: block ;
+}
+
 a:link {
     text-decoration: none;
     color: #f14848;
@@ -18,4 +83,21 @@ a:link {
  }
  a:hover {
     color: #f14848;
+}
+ .selected {
+     color: #f14848;
+     font-weight: bold;
+ }
+.site-footer {
+    background-color: #1E2024;
+
+}
+.buttom-bar {
+    background: #151515;
+    color: #3d3d3d;
+
+}
+.buttom-bar  li  {
+    font-weight: bold;
+
 }
