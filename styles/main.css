@@ -5,12 +5,24 @@
     }
 }
 /*****************Backgrounds********************/
+html ,
+body {
+    font: 100%  'Source Sans Pro' , sans-serif;
+}
 
 .main-section {
     background-image: url(../images/other/homepage-featured-new-1920x745.jpg);
     background-size: contain;
     height: 745px;
     background-repeat: no-repeat;
+    text-align: center;
+}
+ h1 {
+    font-size: 1.3rem;
+}
+ h2 {
+    font-size:4rem;
+   
 }
 .enhance {
     background-image:  url(../images/other/ic_EI_cloud_2_home_page.png)
@@ -22,9 +34,14 @@
 }
 .tv {
     background-image: url(../images/other/screen_whos_on.jpg );
+    background-repeat: no-repeat;
+    background-size: 850px;
+    background-position:  100% 5%;
 }
 .schedual-meeting {
     background-image: url(../images/other/img-event-IBC.jpg);
+    width: 292px;
+    height: 117px;
     background-repeat: no-repeat;
     background-position: right 0 top 30px;
     background-repeat: no-repeat;
@@ -35,28 +52,20 @@
 }
 /********************blog*******************/
 .experience {
-    background-image: url(../images/blog/ibc_post_EI-750x508.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
+    background: url(../images/blog/ibc_post_EI-750x508.png) no-repeat 50% 0;
 }
 .what-we-leared {
-    background-image: url(../images/blog/IMG_9294-750x563.jpeg);
-    background-repeat: no-repeat;
-    background-position: 30% 0;
+    background: url(../images/blog/IMG_9294-750x563.jpeg) no-repeat 30% 0;
 }
 .big-data {
     background-image: url(../images/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg);
     background-repeat: no-repeat;
 }
 .infusion {
-    background-image: url(../images/blog/post_tv_connect-750x508.jpeg);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
+    background: url(../images/blog/post_tv_connect-750x508.jpeg) no-repeat 50% 0;
 }
 .quality {
-    background-image: url(../images/blog/post_quality-750x508.jpeg);
-    background-repeat: no-repeat;
-    background-position: 50% 60%;
+    background: url(../images/blog/post_quality-750x508.jpeg) no-repeat 50% 60%;
 
 }
 
@@ -64,18 +73,14 @@
 li {
     list-style: none;
 }
-aside li {
-    width: 16.6%;
-    height: 400px;
-    display: block ;
-}
+
 
 a:link {
     text-decoration: none;
     color: #f14848;
 }
  a:visited {
-    color: #3d3d3d;
+    color: #7a7a7a;
 }
  a:focus    {
      color: #f14848;
@@ -84,20 +89,35 @@ a:link {
  a:hover {
     color: #f14848;
 }
+
  .selected {
      color: #f14848;
      font-weight: bold;
  }
+ .tv {
+     height: 690px;
+ }
+aside li {
+    width: 16.6%;
+    height: 400px;
+    display: block ;
+}
 .site-footer {
     background-color: #1E2024;
-
+}
+.site-footer > ul > li > a {
+    color: rgb(255,255,255);
 }
 .buttom-bar {
     background: #151515;
-    color: #3d3d3d;
-
+    color: #7a7a7a;
 }
-.buttom-bar  li  {
-    font-weight: bold;
 
+.buttom-bar  a  {
+    font-weight: bold;
+    color: rgb(99, 99, 99);
+}
+.buttom-bar a:hover,
+            a:active {
+    color: rgb(255,255,255);
 }
