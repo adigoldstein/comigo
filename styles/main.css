@@ -4,10 +4,17 @@
         display: none;
     }
 }
-/*****************Backgrounds********************/
+/*************************************************/
 html ,
 body {
     font: 100%  'Source Sans Pro' , sans-serif;
+}
+li {
+    list-style: none;
+}
+.selected {
+    color: #f14848;
+    font-weight: bold;
 }
 
 .main-section {
@@ -16,29 +23,83 @@ body {
     height: 745px;
     background-repeat: no-repeat;
     text-align: center;
+    color: ##FFFFFF;
 }
  h1 {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
  h2 {
-    font-size:4rem;
-   
+    font-size: 4rem;
 }
+ .why {
+     text-align: center;
+     height: 300px;
+
+ }
+ .why h3 ,.tv h3{
+     font-size: 3rem ;
+     font-weight: lighter;
+ }
+.why h4 .brochure-top h4 aside h4 {
+    font-size:1.125rem;
+    font-weight: lighter;
+}
+
+.red-btn {
+    background-color: #F14848;
+}
+.white-btn {
+    background-color: #fff;
+}
+.btn {
+    border-radius: 25px;
+    font-size:1.25rem;
+    font-weight: bold;
+    padding:15px 25px ;
+    letter-spacing: 1.5px;
+}
+
 .enhance {
-    background-image:  url(../images/other/ic_EI_cloud_2_home_page.png)
-                        ,url(../images/other/home-tv-service-bg1.png);
+    background-image:  url(../images/other/ic_EI_cloud_2_home_page.png) /*gray cloud*/
+                        ,url(../images/other/home-tv-service-bg1.png);/*red bg*/
+    background-repeat: no-repeat, no-repeat;
+    background-position:right  50% top 0;
+    background-size: 50% , cover;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    color: #FFFFFF;
 }
 .deploy {
     background-image: url(../images/other/ic-stb-screens.png) ,
                        url(../images/other/home-tv-service-bg2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position:right  50% top 0;
+    background-size: 50% , cover;
+    width: 700px;
+    height: 500px;
+    text-align: center;
 }
 .tv {
     background-image: url(../images/other/screen_whos_on.jpg );
     background-repeat: no-repeat;
     background-size: 850px;
     background-position:  100% 5%;
+    height: 690px;
 }
-.schedual-meeting {
+.deploy h3, .enhance h3 {
+    font-size:2.25rem;
+}
+}
+.deploy h4, .enhance h4 ,.tv h4 .blog-header-holder h4{
+    font-size:0.9rem;
+}
+.brochure h3, .demo h3 ,.blog-header-holder h3 , aside h3 {
+    font-size:3.4rem;
+    font-weight:lighter;
+
+}
+.meeting {
     background-image: url(../images/other/img-event-IBC.jpg);
     width: 292px;
     height: 117px;
@@ -49,8 +110,48 @@ body {
 .demo {
     background-image: url(../images/other/screen_demo.jpg);
     background-repeat: no-repeat;
+    width: 550px;
+    height: 500px;
+    background-size: 500px;
+    background-position: bottom right;
+    text-align: center;
 }
-/********************blog*******************/
+.blog-header-holder {
+    width: 16.6%;
+    background-color: #F14848;
+    color: #FFFFFF;
+}
+aside li {
+    width: 16.6%;
+    height: 400px;
+    display: block ;
+    color: #FFFFFF;
+}
+aside h5 {
+    color: #FFFFFF;
+}
+.site-footer {
+    background-color: #1E2024;
+}
+.site-footer > ul > li > a {
+    color: rgb(255,255,255);
+}
+.buttom-bar {
+    background: #151515;
+    color: #7a7a7a;
+}
+
+.buttom-bar  a  {
+    font-weight: bold;
+    color: rgb(99, 99, 99);
+}
+.buttom-bar a:hover,
+a:active {
+    color: rgb(255,255,255);
+}
+.btn , .why h3 , .engage , .enhance h3, .deploy h3 , .tv h3,  .brochure , aside , .site-footer{
+    text-transform: uppercase;
+}
 .experience {
     background: url(../images/blog/ibc_post_EI-750x508.png) no-repeat 50% 0;
 }
@@ -69,10 +170,8 @@ body {
 
 }
 
-/*******************Actual page*******************/
-li {
-    list-style: none;
-}
+
+
 
 
 a:link {
@@ -89,35 +188,11 @@ a:link {
  a:hover {
     color: #f14848;
 }
-
- .selected {
-     color: #f14848;
-     font-weight: bold;
- }
- .tv {
-     height: 690px;
- }
-aside li {
-    width: 16.6%;
-    height: 400px;
-    display: block ;
+.red-btn:link , .red-btn:visited   {
+    color: #FFFFFF;
 }
-.site-footer {
-    background-color: #1E2024;
-}
-.site-footer > ul > li > a {
-    color: rgb(255,255,255);
-}
-.buttom-bar {
-    background: #151515;
-    color: #7a7a7a;
+.white-btn:link , .white-btn:visited  {
+    color: #F14848;
 }
 
-.buttom-bar  a  {
-    font-weight: bold;
-    color: rgb(99, 99, 99);
-}
-.buttom-bar a:hover,
-            a:active {
-    color: rgb(255,255,255);
-}
+
