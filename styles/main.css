@@ -12,6 +12,14 @@ body {
 li {
     list-style: none;
 }
+.main-manu ul li{
+display: inline;
+    padding: 0 5px;
+}
+.main-manu ul ul {
+display: none;
+}
+
 .selected {
     color: #f14848;
     font-weight: bold;
@@ -23,13 +31,14 @@ li {
     height: 745px;
     background-repeat: no-repeat;
     text-align: center;
-    color: ##FFFFFF;
+    color: #FFFFFF;
 }
  h1 {
     font-size: 1.7rem;
 }
  h2 {
     font-size: 4rem;
+     font-weight:lighter;
 }
  .why {
      text-align: center;
