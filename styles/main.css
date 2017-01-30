@@ -72,7 +72,7 @@ nav {
     font-size: 4rem;
      font-weight:lighter;
      line-height: 0.1;
-     margin-top: 5%;
+     margin-top: 3%;
 }
  .why {
      text-align: center;
@@ -100,6 +100,7 @@ nav {
     font-weight: bold;
     padding:15px 25px ;
     letter-spacing: 1.5px;
+    font-weight: lighter;
 }
 .engage {
     background-color: #2A2E21;
@@ -118,6 +119,9 @@ nav {
     font-weight: lighter;
 }
 
+.hidden-figures {
+    display: none;
+}
 .enhance {
     background-image:  url(../images/other/ic_EI_cloud_2_home_page.png) /*gray cloud*/
                         ,url(../images/other/home-tv-service-bg1.png);/*red bg*/
