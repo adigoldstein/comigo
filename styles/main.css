@@ -1,3 +1,4 @@
+
 /*Media below 600 px*/
 @media (max-width: 600px) {
     .main-manu {
@@ -8,12 +9,13 @@
 html ,
 body {
     font: 100%  'Source Sans Pro' , sans-serif;
+
 }
 li {
     list-style: none;
 }
 .main-manu ul li{
-display: inline;
+    display: inline-block;
     padding: 0 5px;
 }
 .main-manu ul ul {
@@ -28,6 +30,7 @@ display: none;
 .main-section {
     background-image: url(../images/other/homepage-featured-new-1920x745.jpg);
     background-size: contain;
+    width: 100%;
     height: 745px;
     background-repeat: no-repeat;
     text-align: center;
@@ -35,10 +38,13 @@ display: none;
 }
  h1 {
     font-size: 1.7rem;
+     padding-top: 10%;
 }
  h2 {
     font-size: 4rem;
      font-weight:lighter;
+     line-height: 0.1;
+     margin-top: 5%;
 }
  .why {
      text-align: center;
@@ -74,7 +80,7 @@ display: none;
     background-repeat: no-repeat, no-repeat;
     background-position:right  50% top 0;
     background-size: 50% , cover;
-    width: 700px;
+    width:50%;
     height: 500px;
     text-align: center;
     color: #FFFFFF;
@@ -85,7 +91,7 @@ display: none;
     background-repeat: no-repeat, no-repeat;
     background-position:right  50% top 0;
     background-size: 50% , cover;
-    width: 700px;
+    width: 50%;
     height: 500px;
     text-align: center;
 }
@@ -98,7 +104,6 @@ display: none;
 }
 .deploy h3, .enhance h3 {
     font-size:2.25rem;
-}
 }
 .deploy h4, .enhance h4 ,.tv h4 .blog-header-holder h4{
     font-size:0.9rem;
@@ -127,6 +132,7 @@ display: none;
 }
 .blog-header-holder {
     width: 16.6%;
+    height: 400px;
     background-color: #F14848;
     color: #FFFFFF;
 }
@@ -176,9 +182,23 @@ a:active {
 }
 .quality {
     background: url(../images/blog/post_quality-750x508.jpeg) no-repeat 50% 60%;
-
 }
-
+.footer-container {
+    background-color: #1E2024;
+}
+.buttom-bar-container {
+    background-color: #151515;
+}
+.site-footer , .buttom-bar {
+    width: 90%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+@media (max-width: 990px) {
+    .site-footer , .buttom-bar {
+        max-width: 660px;
+    }
+}
 
 
 
