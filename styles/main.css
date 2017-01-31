@@ -106,6 +106,24 @@ nav {
     background-color: #2A2E21;
     color: #FFFFFF;
 }
+.engage-headerholder {
+    width: 30%;
+    height: 550px;
+    float: left;
+}
+.engage-ul-container {
+    width: 20%;
+    height: 550px;
+    float: left;
+    margin-top: 50px;
+}
+.engage a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0 ;
+    letter-spacing: 1.5px;
+    font-size: 1.35rem;
+}
 .engage h3 {
     font-size:2rem;
     font-weight:lighter;
@@ -118,9 +136,15 @@ nav {
     font-size:1.35rem;
     font-weight: lighter;
 }
+/*figure {
+    width: 50%;
+    height: 550px;
+    float: left;
+}*/
 
 .hidden-figures {
     display: none;
+
 }
 .enhance {
     background-image:  url(../images/other/ic_EI_cloud_2_home_page.png) /*gray cloud*/
