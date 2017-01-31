@@ -9,6 +9,8 @@
 html ,
 body {
     font: 100%  'Source Sans Pro' , sans-serif;
+    width: 100%;
+    height: 100%;
 }
 html {
     box-sizing: border-box;
@@ -58,7 +60,7 @@ nav {
     background-image: url(../images/other/homepage-featured-new-1920x745.jpg);
     background-size: contain;
     width: 100%;
-    height: 745px;
+    height: 40vw;
     background-repeat: no-repeat;
     text-align: center;
     color: #FFFFFF;
@@ -156,6 +158,7 @@ nav {
     height: 500px;
     text-align: center;
     color: #FFFFFF;
+    float: left;
 }
 .deploy {
     background-image: url(../images/other/ic-stb-screens.png) ,
@@ -166,6 +169,7 @@ nav {
     width: 50%;
     height: 500px;
     padding-left:5%;
+    float: left;
 }
 
 .tv {
@@ -174,6 +178,7 @@ nav {
     background-size: 850px;
     background-position:  100% 5%;
     height: 690px;
+    clear: both;
 }
 .deploy h3, .enhance h3 {
     font-size:2.25rem;
