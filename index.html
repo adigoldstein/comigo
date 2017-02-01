@@ -18,23 +18,32 @@
             </li>
             <li>
                 <a href="#">Our Solutions</a>
-                <ul>
-                    <li><a href="">EI CLOUD</a></li>
-                    <ul>
-                        <li><a href="#">EIX</a></li>
-                        <li><a href="#">EI MIND</a></li>
-                    </ul>
-                    <li><a href="#">EI MIDDLEWARE</a></li>
+                <ul class="sub-manu">
+                    <li>
+                        <a href="">EI CLOUD</a>
+                        <ul class="deep-manu">
+                            <li><a href="#">EIX</a></li>
+                            <li><a href="#">EI MIND</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">EI MIDDLEWARE</a>
+                        <ul class="deep-manu">
+                            <li><a href="#">ANDROID</a></li>
+                            <li><a href="#">COMIGO WATCHAPP<sup>TM</sup> APPLICATION</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#">INDUSTRY EVENTS</a></li>
                 </ul>
             </li>
             <li><a href="#">Partners</a></li>
-            <li><a href="#">Industry Insight</a></li>
-            <ul>
-                <li><a href="#">MEDIA ROOM</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">INDUSTRY EVENTS</a></li>
-            </ul>
+            <li>
+                <a href="#">Industry Insight</a>
+                <ul class="sub-manu">
+                    <li><a href="#">MEDIA ROOM</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">INDUSTRY EVENTS</a></li>
+                </ul>
+            </li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -117,40 +126,44 @@
 
     <section class="brochure">
         <div class="brochure-top">
-            <h3>LEARN MORE ABOUT COMIGO</h3>
-            <a href="">
-                <img src="" alt=""><!--missing!!!!!!-->
+            <div class="brochure-top-header">
+                <h3 class="brochure-learn-more">LEARN MORE ABOUT COMIGO</h3>
+            </div>
+            <a class="brochure-download" href="#">
                 <br>
                 Download our brochure to learn more
             </a>
         </div>
-
         <div class="meeting">
-            <ul>
-                <li><a class="social-icon" href="">f</a></li>
-                <li><a class="social-icon" href="">tw</a></li>
-                <li><a class="social-icon" href="">in</a></li>
-                <li><a class="social-icon" href="">utube</a></li>
-            </ul>
-            <a href=""> SCHEDULE A MEETING AT IBC 2016
-
-            </a>
+            <div class="social-div">
+                <ul>
+                    <li><a class="social-icon" href="">f</a></li>
+                    <li><a class="social-icon" href="">tw</a></li>
+                    <li><a class="social-icon" href="">in</a></li>
+                    <li><a class="social-icon" href="">utube</a></li>
+                </ul>
+            </div>
+            <div class="schedule-ibc">
+                <a href=""> SCHEDULE A MEETING AT IBC 2016</a>
+            </div>
         </div>
     </section>
 
     <section class="demo">
-        <a href="">
+        <a href="#">
             <h3>SCHEDUAL A DEMO</h3>
         </a>
     </section>
 </main>
 <!-- End of main element-->
 <aside>
-    <div class="blog-header-holder">
-        <h3>OUR BLOG</h3>
-        <h4>THE INSIDE VIEW</h4>
-    </div>
     <ul>
+        <li class="blog-header-holder">
+            <a href="#">
+                <h3>OUR BLOG</h3>
+                <h4>THE INSIDE VIEW</h4>
+            </a>
+        </li>
         <li class="experience">
             <a href=""><h5>Comigo’s Experience Intelligence Products Redefine TV – And You Can Find Out How at
                 IBC2016</h5>
