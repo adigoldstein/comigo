@@ -26,8 +26,10 @@ html {
     box-sizing: inherit;
 }
 
-li {
+ul {
     list-style: none;
+    padding: 0;
+
 }
 
 .main-manu li {
@@ -81,7 +83,7 @@ nav {
 }
 
 .sub-manu, .deep-manu {
-    font-size: 2rem;
+    font-size: 2.25rem;
     text-align: center;
     padding-left: 0;
     float: left;
@@ -235,12 +237,6 @@ h2 {
     font-weight: lighter;
 }
 
-/*figure {
-    width: 50%;
-    height: 550px;
-    float: left;
-}*/
-
 .hidden-figures {
     display: none;
 
@@ -248,25 +244,29 @@ h2 {
 
 .enhance {
     background-image: url(../images/other/ic_EI_cloud_2_home_page.png) /*gray cloud*/, url(../images/other/home-tv-service-bg1.png); /*red bg*/
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat ;
     background-position: right 50% top 0;
     background-size: 50%, contain;
     width: 50%;
-    height: 85.386221294vw;
+    height: 43vw;
+
     text-align: center;
     color: #FFFFFF;
     float: left;
+
 }
 
 .deploy {
     background-image: url(../images/other/ic-stb-screens.png), /* modem bg*/ url(../images/other/home-tv-service-bg2.png); /*gray bg*/
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat;
     background-position: right 50% top 5%;
     background-size: 30%, contain;
     width: 50%;
-    height: 85.386221294vw;
+    height: 43vw;
+
     padding-left: 5%;
     float: left;
+
 }
 
 .tv {
@@ -281,6 +281,7 @@ h2 {
 .deploy h3, .enhance h3 {
     font-size: 2.25rem;
     padding-top: 45%;
+    margin: 0;
 }
 
 .deploy h4, .enhance h4, .tv h4 .blog-header-holder h4 {
@@ -328,7 +329,6 @@ h2 {
     height: 20.25vw;
     padding: 0;
     width: 100%;
-    position: relative;
 }
 
 .brochure-top-header {
@@ -339,8 +339,7 @@ h2 {
 }
 
 .brochure-learn-more {
-    position: absolute;
-    top: 35%;
+    padding-top: 10%;
 }
 
 .brochure-download {
@@ -405,21 +404,48 @@ aside li {
     display: inline-block;
     color: #FFFFFF;
     float: left;
+    position: relative;
 }
 
 aside a {
     font-size: 1.35rem;
     font-weight: lighter;
-    display: inline-block;
-    padding-top: 100%;
+    display: block;
+    height: 100%;
+}
+aside h5 {
+    position: absolute;
+    bottom: 0;
+}
+aside li span  {
+    width: 100%;
+    height: 100px;
+    background-color: greenyellow ;
+    display: block;
+    position: absolute;
+    bottom: 0;
 }
 
 .site-footer {
     background-color: #1E2024;
+    overflow: auto;
 }
 
 .site-footer > ul > li > a {
     color: rgb(255, 255, 255);
+}
+
+.whith-logo {
+    float: right;
+}
+
+/*.site-footer >ul >li {*/
+/*display: inline-block;*/
+/*}*/
+
+.site-footer > ul > li:nth-last-of-type(2n+1) {
+    float: left;
+
 }
 
 .buttom-bar {
@@ -468,6 +494,7 @@ a:active {
 
 .buttom-bar-container {
     background-color: #151515;
+    clear: both;
 }
 
 .site-footer, .buttom-bar {
