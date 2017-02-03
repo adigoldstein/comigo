@@ -46,6 +46,7 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 .top-bar > a {
@@ -60,6 +61,7 @@ ul {
 
 .top-bar ul {
     margin: 0;
+
 }
 
 nav > ul a {
@@ -83,7 +85,7 @@ nav {
 }
 
 .sub-manu, .deep-manu {
-    font-size: 2.25rem;
+    font-size: 2.7rem;
     text-align: center;
     padding-left: 0;
     float: left;
@@ -97,7 +99,6 @@ nav {
 
 .sub-manu li {
     width: 33.33333%;
-    outline: solid 1px;
     float: left;
 
 }
@@ -116,16 +117,14 @@ nav {
 nav ul li:hover .sub-manu {
     display: inline-block;
     height: 140px;
-    /*background-color: #f14848;*/
+
 }
 
 .sub-manu li:hover .deep-manu {
     display: inline-block;
-
-    background-color: #FFFFFF;
     width: 100%;
     height: 140px;
-    opacity: 0.98;
+
 }
 
 .sub-manu {
@@ -169,17 +168,17 @@ h2 {
 
 .why {
     text-align: center;
-    height: 300px;
+    height: 380px;
 
 }
 
 .why h3, .tv h3 {
-    font-size: 3rem;
+    font-size: 3.8em;
     font-weight: lighter;
 }
 
 .why h4 .brochure-top h4 aside h4 {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 
@@ -193,16 +192,22 @@ h2 {
 
 .btn {
     border-radius: 25px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 15px 25px;
     letter-spacing: 1.5px;
     font-weight: lighter;
 }
+.section-centered {
+    width: 81%;
+    height: 100%;
+    margin:  0 auto;
+}
 
 .engage {
     background-color: #2A2E21;
     color: #FFFFFF;
+    height: 40vw;
 }
 
 .engage-headerholder {
@@ -210,12 +215,20 @@ h2 {
     height: 500px;
     float: left;
 }
-
+.engage-headerholder h4 {
+    width: 200px;
+    border: 1px solid red;
+}
 .engage-ul-container {
     width: 20%;
     height: 500px;
     float: left;
     padding-top: 50px;
+}
+.fig-container {
+    width: 50%;
+    height: 500px;
+    float: left;
 }
 
 .engage a {
@@ -223,7 +236,7 @@ h2 {
     width: 100%;
     padding: 10px 0;
     letter-spacing: 1.5px;
-    font-size: 1.35rem;
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 
@@ -244,7 +257,7 @@ h2 {
 
 .enhance {
     background-image: url(../images/other/ic_EI_cloud_2_home_page.png) /*gray cloud*/, url(../images/other/home-tv-service-bg1.png); /*red bg*/
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-position: right 50% top 0;
     background-size: 50%, contain;
     width: 50%;
@@ -275,7 +288,6 @@ h2 {
     background-size: 850px;
     background-position: 100% 5%;
     height: 690px;
-    clear: both;
 }
 
 .deploy h3, .enhance h3 {
@@ -385,10 +397,6 @@ h2 {
     right: 3%;
 }
 
-aside {
-    clear: both;
-}
-
 aside h5 {
     color: #FFFFFF;
 }
@@ -413,14 +421,16 @@ aside a {
     display: block;
     height: 100%;
 }
+
 aside h5 {
     position: absolute;
     bottom: 0;
 }
-aside li span  {
+
+aside li span {
     width: 100%;
     height: 100px;
-    background-color: greenyellow ;
+    background-color: greenyellow;
     display: block;
     position: absolute;
     bottom: 0;
@@ -494,7 +504,6 @@ a:active {
 
 .buttom-bar-container {
     background-color: #151515;
-    clear: both;
 }
 
 .site-footer, .buttom-bar {
@@ -540,3 +549,31 @@ a:hover {
     color: #FFFFFF;
 }
 
+.sub-manu a:link,
+.sub-manu a:visited,
+.deep-manu a:link,
+.deep-manu a:visited {
+    background-color: #fff;
+    color: #151515;
+}
+
+.sub-manu a:hover,
+.sub-manu a:active,
+.deep-manu a:hover,
+.deep-manu a:active {
+    background-color: #f14848;
+    color: #FFFFFF;
+}
+
+/*
+************Helpers**************
+*/
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
