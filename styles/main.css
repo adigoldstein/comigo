@@ -214,6 +214,7 @@ h2 {
     background-color: #2A2E21;
     color: #FFFFFF;
     height: 40vw;
+    position: relative;
 }
 
 .engage-headerholder {
@@ -238,10 +239,21 @@ h2 {
     margin: 0;
 }
 
-.fig-container {
+figure {
     width: 48%;
     height: 500px;
-    float: left;
+    position: absolute;
+    right:0;
+    top: 0;
+    text-align: center;
+}
+
+.engage li:hover + figure {
+    display: inline-block;
+}
+
+.engage li:not(:hover)  .pedia {
+    display: none;
 }
 
 .engage a {
@@ -263,17 +275,6 @@ h2 {
 
 .engage h4 {
     font-weight: lighter;
-}
-
-.fig-container figure {
-    padding-top: 50px;
-    text-align: center;
-}
-
-.fig-container figcaption {
-    width: 450px;
-    text-align: center;
-    padding-bottom: 10px;
 }
 
 .hidden-figures {
