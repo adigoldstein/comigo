@@ -93,7 +93,7 @@ nav {
 
 .sub-manu {
     position: absolute;
-    top: 66px;
+    top: 65px;
     left: 0;
 }
 
@@ -177,6 +177,11 @@ h2 {
     font-weight: lighter;
 }
 
+.why h4 {
+    color: #7a7a7a;
+    line-height: 2em;
+}
+
 .why h4 .brochure-top h4 aside h4 {
     font-size: 1.5rem;
     font-weight: lighter;
@@ -198,10 +203,11 @@ h2 {
     letter-spacing: 1.5px;
     font-weight: lighter;
 }
+
 .section-centered {
     width: 81%;
     height: 100%;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
 .engage {
@@ -211,22 +217,30 @@ h2 {
 }
 
 .engage-headerholder {
-    width: 30%;
+    width: 32%;
     height: 500px;
     float: left;
 }
+
 .engage-headerholder h4 {
     width: 200px;
     border: 1px solid red;
 }
+
 .engage-ul-container {
     width: 20%;
     height: 500px;
     float: left;
-    padding-top: 50px;
+    padding-top: 70px;
 }
+
+.engage-ul-container ul {
+    padding: 0;
+    margin: 0;
+}
+
 .fig-container {
-    width: 50%;
+    width: 48%;
     height: 500px;
     float: left;
 }
@@ -234,20 +248,33 @@ h2 {
 .engage a {
     display: inline-block;
     width: 100%;
-    padding: 10px 0;
+    padding-bottom: 20px;
     letter-spacing: 1.5px;
     font-size: 1.5rem;
     font-weight: lighter;
 }
 
 .engage h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: lighter;
+    padding-top: 70px;
+    margin-top: 0;
 
 }
 
 .engage h4 {
     font-weight: lighter;
+}
+
+.fig-container figure {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.fig-container figcaption {
+    width: 450px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .hidden-figures {
@@ -262,8 +289,6 @@ h2 {
     background-size: 50%, contain;
     width: 50%;
     height: 43vw;
-
-    text-align: center;
     color: #FFFFFF;
     float: left;
 
@@ -272,32 +297,81 @@ h2 {
 .deploy {
     background-image: url(../images/other/ic-stb-screens.png), /* modem bg*/ url(../images/other/home-tv-service-bg2.png); /*gray bg*/
     background-repeat: no-repeat;
-    background-position: right 50% top 5%;
-    background-size: 30%, contain;
+    background-position: left 10% top 5%;
+    background-size: 40%, contain;
     width: 50%;
     height: 43vw;
-
     padding-left: 5%;
     float: left;
 
 }
 
 .tv {
+
+    height: 49vw;
+
+}
+
+.tv-container {
     background-image: url(../images/other/screen_whos_on.jpg);
     background-repeat: no-repeat;
-    background-size: 850px;
-    background-position: 100% 5%;
-    height: 690px;
+    float: right;
+    background-size: contain;
+    height: 748px;
+    width: 70%;
+    margin-right: -10%;
+
+}
+
+.tv-headers {
+    width: 400px;
+    display: inline-block;
+    margin-left: 7%;
+}
+
+.tv h3 {
+    margin-bottom: 10px;
+}
+
+.tv h4 {
+    line-height: 1.5;
+    margin-bottom: 35px;
 }
 
 .deploy h3, .enhance h3 {
     font-size: 2.25rem;
-    padding-top: 45%;
+    padding-bottom: 0;
     margin: 0;
+}
+
+.enhance h4, .deploy h4 {
+    padding-bottom: 10%;
 }
 
 .deploy h4, .enhance h4, .tv h4 .blog-header-holder h4 {
     font-size: 0.9rem;
+}
+
+.enhance, .deploy {
+    position: relative;
+}
+
+.enhance-and-deploy {
+    height: 43vw;
+}
+
+.deploy span {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    width: 50%;
+}
+
+.enhance span {
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+    width: 50%;
 }
 
 .brochure h3, .demo h3, .blog-header-holder h3, aside h3 {
