@@ -224,7 +224,6 @@ h2 {
 
 .engage-headerholder h4 {
     width: 200px;
-    border: 1px solid red;
 }
 
 .engage-ul-container {
@@ -321,8 +320,6 @@ h2 {
     width: 60%;
     margin-top: 20px;
     background-position: 0 100%;
-    border: 1px solid #000;
-
 
 }
 
@@ -524,19 +521,21 @@ aside li span {
 
 .whith-logo {
     float: right;
-    padding-top:90px;
+    padding-top: 90px;
 }
 
 .site-footer > ul {
     float: left;
-    padding-right:180px;
+    padding-right: 180px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .site-footer > ul > li {
-    padding-top:20px;
+    padding-top: 20px;
 }
-.site-footer  li li {
+
+.site-footer li li {
     padding-top: 10px;
 }
 
@@ -554,24 +553,30 @@ aside li span {
 a:active {
     color: rgb(255, 255, 255);
 }
-.buttom-bar ul , .buttom-bar li {
+
+.buttom-bar ul, .buttom-bar li {
     display: inline-block;
 }
+
 .left-list li {
     float: left;
     padding: 0 12px;
     font-size: 0.87rem;
     border-right: 1px solid #7a7a7a;
 }
+
 .left-list li:last-child {
     border: none;
 }
+
 .right-list {
     float: right;
 }
+
 .right-list span {
     float: right;
 }
+
 .right-list li:first-child {
     padding-right: 130px;
 }
