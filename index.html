@@ -1,286 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Comigo Clone</title>
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <!--Source sans pro font-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Comigo Clone</title>
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!--Source sans pro font-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
 </head>
 <body>
 <header class="top-bar">
+  <div class="logo">
     <a href="#"><img src="images/logo/comigo-logo-black.png" alt="Comigo Logo"></a>
-    <nav class="main-manu clearfix">
-        <ul>
-            <li>
-                <a href="#" class="selected">Home</a>
-            </li>
-            <li>
-                <a href="#">Our Solutions</a>
-                <ul class="sub-manu">
-                    <li>
-                        <a href="">EI CLOUD</a>
-                        <ul class="deep-manu">
-                            <li><a href="#">EIX</a></li>
-                            <li><a href="#">EI MIND</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">EI MIDDLEWARE</a>
-                        <ul class="deep-manu">
-                            <li><a href="#">ANDROID</a></li>
-                            <li><a href="#">COMIGO WATCHAPP<sup>TM</sup> APPLICATION</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">INDUSTRY EVENTS</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Partners</a></li>
-            <li>
-                <a href="#">Industry Insight</a>
-                <ul class="sub-manu">
-                    <li><a href="#">MEDIA ROOM</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">INDUSTRY EVENTS</a></li>
-                </ul>
-            </li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+  </div>
+  <input type="checkbox" id="burger">
+  <label for="burger">Menu</label>
+  <nav class="main-manu clearfix">
+    <ul>
+      <li>
+        <a href="#" class="selected">Home</a>
+      </li>
+      <li>
+        <a href="#">Our Solutions</a>
+        <ul class="sub-manu dashed">
+          <li>
+            <a href="">EI CLOUD</a>
+            <ul class="deep-manu dashed">
+              <li><a href="#">EIX</a></li>
+              <li><a href="#">EI MIND</a></li>
+            </ul>
+          </li>
+          <li><a href="#">EI MIDDLEWARE</a>
+            <ul class="deep-manu dashed">
+              <li><a href="#">ANDROID</a></li>
+              <li><a href="#">COMIGO WATCHAPP<sup>TM</sup> APPLICATION</a></li>
+            </ul>
+          </li>
+          <li><a href="#">INDUSTRY EVENTS</a></li>
         </ul>
-    </nav>
+      </li>
+      <li><a href="#">Partners</a></li>
+      <li>
+        <a href="#">Industry Insight</a>
+        <ul class="sub-manu dashed">
+          <li><a href="#">MEDIA ROOM</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">INDUSTRY EVENTS</a></li>
+        </ul>
+      </li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
 </header>
 
 <main>
-    <section class="main-section">
-        <h1>Comigo OTT/STB solutions - redefine TV experience</h1>
-        <h2>Experience Intelligence</h2>
-        <a class="red-btn btn" href="">OUR SOLUTIONS</a>
-    </section>
+  <section class="main-section">
+    <h1>Comigo OTT/STB solutions - redefine TV experience</h1>
+    <h2>Experience Intelligence</h2>
+    <a class="red-btn btn" href="">OUR SOLUTIONS</a>
+  </section>
 
-    <section class="why">
-        <h3>Why Comigo?</h3>
-        <h4>Comigo redefines the TV experience,<br>infusing it with the full power of the Internet.</h4>
-        <a class="red-btn btn" href="">CONTACT US</a>
-    </section>
+  <section class="why">
+    <h3>Why Comigo?</h3>
+    <h4>Comigo redefines the TV experience,<br>infusing it with the full power of the Internet.</h4>
+    <a class="red-btn btn" href="">CONTACT US</a>
+  </section>
 
-    <section class="engage clearfix">
-        <div class="section-centered">
-            <div class="engage-headerholder">
-                <h3>ENGAGE <br> VIEWERS, <br> DIFFERENTIATE <br> EXPERIENCE <br> AND <br> DRIVE NEW <br> REVENUE</h3>
-                <h4>with highly-relevant contextual services</h4>
-            </div>
-            <div class="engage-ul-container">
-                <ul>
-                    <li class="link-pedia"><a href="#">PEDIA</a></li>
-                    <figure class="pedia hidden-figures">
-                        <figcaption>Drive stickiness by enriching content with contextual data from external sources
-                        </figcaption>
-                        <img src="images/services/pedia.png" alt="Pedia">
-                    </figure>
-                    <li class="link-partification"><a href="#">PARTIFICATION</a></li>
-                    <figure class="partification hidden-figures">
-                        <figcaption>Engage viewers and increase content spread through data-driven social features
-                        </figcaption>
-                        <img src="images/services/participation.png" alt="Partification">
-                    </figure>
-                    <li class="link-discivery"><a href="#">DISCOVREY</a></li>
-                    <figure class="discovery hidden-figures">
-                        <figcaption>Offer personalised content with contextualised search, menu and recommendations
-                        </figcaption>
-                        <img src="images/services/discovery.png" alt="Discovey">
-                    </figure>
-                    <li class="link-commerce"><a href="#">COMMERCE</a></li>
-                    <figure class="commerce hidden-figures">
-                        <figcaption>Create new revenue through contextual shopping service</figcaption>
-                        <img src="images/services/commerce.png" alt="Commerce">
-                    </figure>
-                    <li class="link-advertizing"><a href="#">ADVERTISING</a></li>
-                    <figure class="advertising hidden-figures ">
-                        <figcaption>Offer ultra-targeted measurable advertising with advanced campaign analytics
-                        </figcaption>
-                        <img src="images/services/test-drive.png" alt="Advertising">
-                    </figure>
-                    <li class="link-customize"><a href="#">CUSTOMIZE</a></li>
-                    <figure class="customize hidden-figures">
-                        <figcaption>Quickly launch new, unique services based on our open SDK</figcaption>
-                        <img src="images/services/customize.png" alt="Customize">
-                    </figure>
-                </ul>
-            </div>
-            <div class="fig-container">
-            </div>
-        </div>
-    </section>
-    <section class="enhance-and-deploy clearfix">
-        <div class="enhance">
+  <section class="engage clearfix">
+    <div class="section-centered">
+      <div class="engage-headerholder">
+        <h3>ENGAGE <br> VIEWERS, <br> DIFFERENTIATE <br> EXPERIENCE <br> AND <br> DRIVE NEW <br> REVENUE</h3>
+        <h4>with highly-relevant contextual services</h4>
+      </div>
+      <div class="engage-ul-container">
+        <ul>
+          <li class="link-pedia"><a href="#">PEDIA</a></li>
+          <figure class="pedia hidden-figures">
+            <figcaption>Drive stickiness by enriching content with contextual data from external sources
+            </figcaption>
+            <img src="images/services/pedia.png" alt="Pedia">
+          </figure>
+          <li class="link-partification"><a href="#">PARTIFICATION</a></li>
+          <figure class="partification hidden-figures">
+            <figcaption>Engage viewers and increase content spread through data-driven social features
+            </figcaption>
+            <img src="images/services/participation.png" alt="Partification">
+          </figure>
+          <li class="link-discivery"><a href="#">DISCOVREY</a></li>
+          <figure class="discovery hidden-figures">
+            <figcaption>Offer personalised content with contextualised search, menu and recommendations
+            </figcaption>
+            <img src="images/services/discovery.png" alt="Discovey">
+          </figure>
+          <li class="link-commerce"><a href="#">COMMERCE</a></li>
+          <figure class="commerce hidden-figures">
+            <figcaption>Create new revenue through contextual shopping service</figcaption>
+            <img src="images/services/commerce.png" alt="Commerce">
+          </figure>
+          <li class="link-advertizing"><a href="#">ADVERTISING</a></li>
+          <figure class="advertising hidden-figures ">
+            <figcaption>Offer ultra-targeted measurable advertising with advanced campaign analytics
+            </figcaption>
+            <img src="images/services/test-drive.png" alt="Advertising">
+          </figure>
+          <li class="link-customize"><a href="#">CUSTOMIZE</a></li>
+          <figure class="customize hidden-figures">
+            <figcaption>Quickly launch new, unique services based on our open SDK</figcaption>
+            <img src="images/services/customize.png" alt="Customize">
+          </figure>
+        </ul>
+      </div>
+      <div class="fig-container">
+      </div>
+    </div>
+  </section>
+  <section class="enhance-and-deploy clearfix">
+    <div class="enhance">
            <span>
                 <h3>ENHANCE ANY TV SERVICE</h3>
             <h4>Comigo Experience Intelligence (EI)</h4>
             <a class="btn white-btn" href="">ENHANCE YOUR OTT TV</a>
            </span>
-        </div>
+    </div>
 
-        <div class="deploy ">
+    <div class="deploy ">
             <span>
                 <h3>DEPLOY BEST IN CLASS TV SERVICE</h3>
-            <h4>Comigo's Android-based STB (HW&MW)</h4>
+            <h4>Comigo's Android-based STB (HW&amp;MW)</h4>
             <a class="btn red-btn" href="">DEPLOT ON ANDROID</a>
             </span>
-        </div>
+    </div>
 
-    </section>
-    <section class="tv clearfix">
-        <div class="tv-headers">
-            <h3>YOUR <br> CONTENT,<br> COMIGO’S <br> UNIQUE <br> EXPERIENCE</h3>
-            <h4>Intelligence-based contextual <br> WatchApp™ Applications.</h4>
-            <a class="btn red-btn" href="">LEARN MORE</a>
-        </div>
-        <div class="tv-container"></div>
-    </section>
+  </section>
+  <section class="tv clearfix">
+    <div class="tv-headers">
+      <h3>YOUR <br> CONTENT,<br> COMIGO’S <br> UNIQUE <br> EXPERIENCE</h3>
+      <h4>Intelligence-based contextual <br> WatchApp™ Applications.</h4>
+      <a class="btn red-btn" href="">LEARN MORE</a>
+    </div>
+    <div class="tv-container"></div>
+  </section>
 
-    <section class="brochure clearfix">
-        <div class="brochure-top">
-            <div class="brochure-top-header">
-                <h3 class="brochure-learn-more">LEARN MORE ABOUT COMIGO</h3>
-            </div>
-            <a class="brochure-download" href="#">
-                <br>
-                Download our brochure to learn more
-            </a>
-        </div>
-        <div class="meeting">
-            <div class="social-div">
-                <ul>
-                    <li><a class="social-icon" href="">f</a></li>
-                    <li><a class="social-icon" href="">tw</a></li>
-                    <li><a class="social-icon" href="">in</a></li>
-                    <li><a class="social-icon" href="">utube</a></li>
-                </ul>
-            </div>
-            <div class="schedule-ibc">
-                <a href=""> SCHEDULE A MEETING AT IBC 2016</a>
-            </div>
-        </div>
-    </section>
+  <section class="brochure clearfix">
+    <div class="brochure-top">
+      <div class="brochure-top-header">
+        <h3 class="brochure-learn-more">LEARN MORE ABOUT COMIGO</h3>
+      </div>
+      <a class="brochure-download" href="#">
+        <br>
+        Download our brochure to learn more
+      </a>
+    </div>
+    <div class="meeting">
+      <div class="social-div">
+        <ul>
+          <li><a class="social-icon" href="">f</a></li>
+          <li><a class="social-icon" href="">tw</a></li>
+          <li><a class="social-icon" href="">in</a></li>
+          <li><a class="social-icon" href="">utube</a></li>
+        </ul>
+      </div>
+      <div class="schedule-ibc">
+        <a href=""> SCHEDULE A MEETING AT IBC 2016</a>
+      </div>
+    </div>
+  </section>
 
-    <section class="demo">
-        <a href="#">
-            <h3>SCHEDUAL A DEMO</h3>
-        </a>
-    </section>
+  <section class="demo">
+    <a href="#">
+      <h3>SCHEDUAL A DEMO</h3>
+    </a>
+  </section>
 </main>
 <!-- End of main element-->
 <aside class="clearfix">
-    <ul>
-        <li class="blog-header-holder">
-            <a href="#">
-                <h3>OUR BLOG</h3>
-                <h4>THE INSIDE VIEW</h4>
-            </a>
-        </li>
-        <li class="experience">
-            <a href="#">
-                <div class="h5-and-read-more">
-                    <h5>Comigo’s Experience Intelligence Products Redefine TV – And You Can Find Out How at
-                        IBC2016</h5>
-                    <div class="read-more">READ MORE</div>
-                </div>
-            </a>
-        </li>
-        <li class="what-we-leared">
-            <a href="#">
-                <div class="h5-and-read-more">
-                    <h5>What We Learned at TV Connect 2016 </h5>
-                    <div class="read-more">READ MORE</div>
-                </div>
-            </a>
-        </li>
-        <li class="big-data">
-            <a href="#">
-                <div class="h5-and-read-more">
-                    <h5>Big Data Meets TV – The Next Phase In the TV Experience Evolution</h5>
-                    <div class="read-more">READ MORE</div>
-                </div>
-            </a>
-        </li>
-        <li class="infusion">
-            <a href="#">
-                <div class="h5-and-read-more">
-                    <h5>Comigo Will Bring an Infusion of Internet Power and Contextual TV to Life at TV Connect
-                        2016</h5>
-                    <div class="read-more">READ MORE</div>
-                </div>
-            </a>
-        </li>
-        <li class="quality">
-            <a href="#">
-                <div class="h5-and-read-more">
-                    <h5>Quality, Set-Top-Boxes, Crappy Cars, and Caveat Emptor</h5>
-                    <div class="read-more">READ MORE</div>
-                </div>
-            </a>
-        </li>
-    </ul>
+  <ul>
+    <li class="blog-header-holder">
+      <a href="#">
+        <h3>OUR BLOG</h3>
+        <h4>THE INSIDE VIEW</h4>
+      </a>
+    </li>
+    <li class="experience">
+      <a href="#">
+        <div class="h5-and-read-more">
+          <h5>Comigo’s Experience Intelligence Products Redefine TV – And You Can Find Out How at
+            IBC2016</h5>
+          <div class="read-more">READ MORE</div>
+        </div>
+      </a>
+    </li>
+    <li class="what-we-leared">
+      <a href="#">
+        <div class="h5-and-read-more">
+          <h5>What We Learned at TV Connect 2016 </h5>
+          <div class="read-more">READ MORE</div>
+        </div>
+      </a>
+    </li>
+    <li class="big-data">
+      <a href="#">
+        <div class="h5-and-read-more">
+          <h5>Big Data Meets TV – The Next Phase In the TV Experience Evolution</h5>
+          <div class="read-more">READ MORE</div>
+        </div>
+      </a>
+    </li>
+    <li class="infusion">
+      <a href="#">
+        <div class="h5-and-read-more">
+          <h5>Comigo Will Bring an Infusion of Internet Power and Contextual TV to Life at TV Connect
+            2016</h5>
+          <div class="read-more">READ MORE</div>
+        </div>
+      </a>
+    </li>
+    <li class="quality">
+      <a href="#">
+        <div class="h5-and-read-more">
+          <h5>Quality, Set-Top-Boxes, Crappy Cars, and Caveat Emptor</h5>
+          <div class="read-more">READ MORE</div>
+        </div>
+      </a>
+    </li>
+  </ul>
 </aside>
 <!-- End of aside element-->
 <footer>
-    <div class="footer-container clearfix">
-        <div class="site-footer">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">OUR SULOTIONS</a>
-                    <ul>
-                        <li><a href="#">EI CLOUD</a></li>
-                        <li><a href="#">EI MIDDLEWARE</a></li>
-                        <li><a href="#">ANDROID SBT</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="#">PARTNERS</a>
-                </li>
-                <li>
-                    <a href="#">INDUSTRY INSIGHT</a>
-                    <ul>
-                        <li><a href="#">MEDIA ROOM</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">INDUSTRY EVENTS</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="#">CONTACT US</a>
-                </li>
-                <li>
-                    <a href="#">ABOUT US</a>
-                </li>
-            </ul>
-            <a class="whith-logo" href="#"><img src="images/logo/comigo-logo-white.png" alt="Comigo Logo"></a>
-        </div>
+  <div class="footer-container clearfix">
+    <div class="site-footer">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">OUR SULOTIONS</a>
+          <ul>
+            <li><a href="#">EI CLOUD</a></li>
+            <li><a href="#">EI MIDDLEWARE</a></li>
+            <li><a href="#">ANDROID SBT</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">PARTNERS</a>
+        </li>
+        <li>
+          <a href="#">INDUSTRY INSIGHT</a>
+          <ul>
+            <li><a href="#">MEDIA ROOM</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">INDUSTRY EVENTS</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">CONTACT US</a>
+        </li>
+        <li>
+          <a href="#">ABOUT US</a>
+        </li>
+      </ul>
+      <a class="whith-logo" href="#"><img src="images/logo/comigo-logo-white.png" alt="Comigo Logo"></a>
     </div>
-    <div class="buttom-bar-container clearfix">
-        <div class="buttom-bar">
-            <ul class="left-list">
-                <li>All rights reserved Comigo © 2016</li>
-                <li><a href="">Terms of Use</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href=""> Privacy Policy</a></li>
-            </ul>
+  </div>
+  <div class="buttom-bar-container clearfix">
+    <div class="buttom-bar">
+      <ul class="left-list">
+        <li>All rights reserved Comigo © 2016</li>
+        <li><a href="">Terms of Use</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href=""> Privacy Policy</a></li>
+      </ul>
 
-            <ul class="right-list">
-                <li>developed by: <a href="">FATLADY</a></li>
-                <li><a class="social-icon" href="">f</a></li>
-                <li><a class="social-icon" href="">tw</a></li>
-                <li><a class="social-icon" href="">in</a></li>
-                <li><a class="social-icon" href="">utube</a></li>
-            </ul>
-        </div>
+      <ul class="right-list">
+        <li>developed by: <a href="">FATLADY</a></li>
+        <li><a class="social-icon" href="">f</a></li>
+        <li><a class="social-icon" href="">tw</a></li>
+        <li><a class="social-icon" href="">in</a></li>
+        <li><a class="social-icon" href="">utube</a></li>
+      </ul>
     </div>
+  </div>
 </footer>
 </body>
 </html>
