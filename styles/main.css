@@ -360,7 +360,7 @@ figure img {
   height: 20.25vw;
 }
 
-.meeting {
+.brochure-bottom {
   height: 20.25vw;
   padding: 0;
   width: 100%;
@@ -751,8 +751,16 @@ a:hover {
 
 @media (max-width: 700px) {
   body {
-    margin: 0;
+    margin: 66px 0 0 0;
     padding: 0;
+  }
+  .top-bar {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 20;
   }
 
   .logo {
@@ -885,7 +893,7 @@ a:hover {
     width: initial;
     height: initial;
     position: absolute ;
-    top:55%;
+    top:65%;
 
   }
 
