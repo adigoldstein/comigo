@@ -155,8 +155,14 @@ figure img {
 
 }
 
+.hidden-figures {
+  opacity: 0;
+
+}
+
 .engage li + figure {
-  transition: opacity 1s ease-in
+  transition: opacity 1s ease-in;
+
 }
 
 .engage li:hover + figure {
@@ -182,11 +188,6 @@ figure img {
 
 .engage h4 {
   font-weight: lighter;
-}
-
-.hidden-figures {
-  opacity: 0;
-
 }
 
 .enhance {
@@ -647,7 +648,6 @@ a:hover {
     z-index: 100;
   }
 
-
   .logo {
     height: 66px;
     display: inline-block;
@@ -717,8 +717,6 @@ a:hover {
     left: 0;
   }
 
-
-
   nav ul li:hover .sub-manu {
     display: inline-block;
     height: 140px;
@@ -774,9 +772,11 @@ a:hover {
   .main-manu {
     display: none;
   }
-#burger {
-  display: none;
-}
+
+  #burger {
+    display: none;
+  }
+
   header label {
     display: inline-block;
     float: right;
@@ -832,11 +832,13 @@ a:hover {
   .main-manu li {
     padding: 8px 0;
   }
+
   /*************main**********/
-.main-section {
-  height: 440px;
-  background-size: cover;
-}
+  .main-section {
+    height: 440px;
+    background-size: cover;
+  }
+
   h1 {
     font-size: 1rem;
     padding-top: 15%;
@@ -847,6 +849,7 @@ a:hover {
   h2 {
     font-size: 2rem;
   }
+
   .btn {
     border-radius: 25px;
     font-size: 0.9rem;
@@ -855,33 +858,81 @@ a:hover {
     letter-spacing: 1.5px;
 
   }
+
   .why {
     height: 380px;
   }
-  /*.engage {*/
-    /*height: auto;*/
-  /*}*/
-  /*.engage-headerholder {*/
-    /*width: 100%;*/
-  /*}*/
-  /*.engage-ul-container {*/
-    /*width: 100%;*/
-  /*}*/
-  /*figure {*/
-    /*float: left;*/
-    /*width: 100%;*/
-    /*position: static;*/
-  /*}*/
-  .enhance-and-deploy {
-    height: initial;
+
+  .why h3, .tv h3 {
+    font-size: 2rem;
   }
-  .enhance , .deploy {
+
+  .engage {
+    height: 250vw;
+  }
+
+  .engage-headerholder {
+    width: 100%;
+    float: none;
+  }
+
+  .engage-ul-container {
+    width: 100%;
+    float: none;
+  }
+
+  figure  {
+    width: initial;
+    height: initial;
+    position: absolute ;
+    top:55%;
+
+  }
+
+
+  .enhance-and-deploy {
+    height: auto;
+  }
+
+  .enhance, .deploy {
     float: none;
     height: 650px;
-    background-size:50% , cover;
+    background-size: 50%, cover;
     background-position: 0 10%;
     width: 100%;
   }
+
+  .tv {
+    height: 800px;
+  }
+
+  .tv-container {
+    /*float: left;*/
+    width: 100%;
+    height: 400px;
+    background-position: 0 top;
+    background-size: contain;
+  }
+
+  .tv-headers {
+    float: none;
+    width: 100%;
+    height: 400px;
+  }
+
+  aside li {
+    float: none;
+    width: 100%;
+  }
+
+  .blog-header-holder {
+    width: 100%;
+  }
+
+  .site-footer {
+    overflow: initial;
+  }
+
 }
 
 /*End of 700px and below*/
