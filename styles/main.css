@@ -666,7 +666,7 @@ a:hover {
     margin: 0;
 
   }
-
+/****nav bar*****/
   nav > ul a {
     line-height: 66px;
     display: inline-block;
@@ -718,15 +718,25 @@ a:hover {
   }
 
   nav ul li:hover .sub-manu {
-    display: inline-block;
+    display: block;
     height: 140px;
-
   }
-
+/*when hover deep manu*/
   .sub-manu li:hover .deep-manu {
-    display: inline-block;
+    display: block;
     width: 100%;
     height: 140px;
+  }
+  .sub-manu a {
+    display:block;
+    padding: 0;
+    line-height: 140px;
+  }
+
+  .sub-manu  span {
+    line-height: 1.2;
+    display: inline-block;
+    vertical-align: middle;
 
   }
 
@@ -735,11 +745,6 @@ a:hover {
     background-color: #FFFFFF;
   }
 
-  .sub-manu a {
-    display: block;
-    height: 140px;
-
-  }
 
   .main-manu .selected {
     color: #f14848;
