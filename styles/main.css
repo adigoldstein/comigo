@@ -412,13 +412,19 @@ aside li {
   color: #FFFFFF;
   float: left;
   position: relative;
+
 }
 
-aside li:hover {
+aside li:not(:first-child):hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
   z-index: 10;
 
+
+}
+aside li:hover h5 , aside li:hover .read-more {
+  transform: translateY(-100px);
+  transition: transform .5s linear;
 }
 
 aside a {
@@ -429,8 +435,11 @@ aside a {
 }
 
 aside h5 {
-
+  position: absolute;
+  bottom: 2%;
+  left: 0;
 }
+
 
 aside li .read-more {
   width: 100%;
@@ -441,19 +450,19 @@ aside li .read-more {
   text-align: center;
   line-height: 100px;
   vertical-align: middle;
-
-}
-
-.h5-and-read-more {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  top: 100%;
+  left:0;
+  z-index: 11;
 }
+
+
 
 .site-footer {
   background-color: #1E2024;
   overflow: auto;
   position: relative;
+  z-index: 12;
 
 }
 
@@ -674,7 +683,7 @@ a:hover {
   }
 
   .main-manu ul ul {
-    display: none;
+   overflow: hidden;
   }
 
   nav {
@@ -698,6 +707,9 @@ a:hover {
     position: absolute;
     top: 65px;
     left: 0;
+    width: 0;
+    height: 0;
+    transition: height .2s linear;
   }
 
   .sub-manu li {
@@ -715,18 +727,23 @@ a:hover {
     position: absolute;
     top: 140px;
     left: 0;
-  }
+    height: 0;
+    width: 0;
 
-  nav ul li:hover .sub-manu {
-    display: block;
-    height: 140px;
   }
-/*when hover deep manu*/
+  /*To show sub manu (2rd level)*/
+  nav ul li:hover .sub-manu {
+    /*display: block;*/
+    height: 140px;
+    width: 100%;
+  }
+/*To show deep manu (3rd level)*/
   .sub-manu li:hover .deep-manu {
     display: block;
     width: 100%;
     height: 140px;
   }
+
   .sub-manu a {
     display:block;
     padding: 0;
@@ -744,6 +761,7 @@ a:hover {
     width: 100%;
     background-color: #FFFFFF;
   }
+
 
 
   .main-manu .selected {
