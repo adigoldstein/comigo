@@ -358,6 +358,13 @@ figure img {
   background-color: #f14848;
   width: 35%;
   height: 20.25vw;
+  color : #FFFFFF;
+}
+
+.brochure-download span {
+  padding: 60% 10%;
+  display: inline-block;
+  text-align: center;
 }
 
 .brochure-bottom {
@@ -624,6 +631,13 @@ a:hover {
   color: #FFFFFF;
 }
 
+.brochure-download:hover,
+.brochure-download:active
+.brochure-download:link,
+.brochure-download:visited{
+  color: #FFFFFF;
+}
+
 /********************Responsive stuff*********************/
 
 /*********************Width 701 px and above*****************/
@@ -640,13 +654,6 @@ a:hover {
 
   }
 
-  .main-manu li {
-    float: left;
-  }
-
-  .main-manu a {
-    padding: 0 10px;
-  }
 
   .top-bar {
     width: 100%;
@@ -674,99 +681,6 @@ a:hover {
   .top-bar ul {
     margin: 0;
 
-  }
-/****nav bar*****/
-  nav > ul a {
-    line-height: 66px;
-    display: inline-block;
-
-  }
-
-  .main-manu ul ul {
-   overflow: hidden;
-  }
-
-  nav {
-    float: right;
-    margin-right: 10px;
-  }
-
-  .deep-manu ul, .deep-manu li, .sub-manu ul, .sub-manu li {
-    padding: 0;
-    margin: 0;
-  }
-
-  .sub-manu, .deep-manu {
-    font-size: 2.7rem;
-    text-align: center;
-    padding-left: 0;
-    float: left;
-  }
-
-  .sub-manu {
-    position: absolute;
-    top: 65px;
-    left: 0;
-    width: 0;
-    height: 0;
-    transition: height .2s linear;
-  }
-
-  .sub-manu li {
-    width: 33.33333%;
-    float: left;
-
-  }
-
-  .deep-manu li {
-    width: 50%;
-    float: left;
-  }
-
-  .deep-manu {
-    position: absolute;
-    top: 140px;
-    left: 0;
-    height: 0;
-    width: 0;
-
-  }
-  /*To show sub manu (2rd level)*/
-  nav ul li:hover .sub-manu {
-    /*display: block;*/
-    height: 140px;
-    width: 100%;
-  }
-/*To show deep manu (3rd level)*/
-  .sub-manu li:hover .deep-manu {
-    display: block;
-    width: 100%;
-    height: 140px;
-  }
-
-  .sub-manu a {
-    display:block;
-    padding: 0;
-    line-height: 140px;
-  }
-
-  .sub-manu  span {
-    line-height: 1.2;
-    display: inline-block;
-    vertical-align: middle;
-
-  }
-
-  .sub-manu {
-    width: 100%;
-    background-color: #FFFFFF;
-  }
-
-
-
-  .main-manu .selected {
-    color: #f14848;
-    font-weight: bold;
   }
 }
 
