@@ -358,7 +358,7 @@ figure img {
   background-color: #f14848;
   width: 35%;
   height: 20.25vw;
-  color : #FFFFFF;
+  color: #FFFFFF;
 }
 
 .brochure-download span {
@@ -379,6 +379,41 @@ figure img {
   width: 35%;
   height: 20.25vw;
   background-color: #F9F9F9;
+}
+
+.social-container ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 35%;
+}
+
+.social-icon {
+  font-family: 'icomoon';
+  speak: none;
+  color: #474747;
+  font-size: 36px;
+  padding: 20px;
+}
+
+.facebook:after {
+  content: '\ea90';
+
+}
+
+.twitter:after {
+  content: '\ea96';
+
+}
+
+.linkdin:after {
+  content: '\eac9';
+
+}
+
+.youtube:after {
+  content: '\ea9d';
+
 }
 
 .schedule-ibc {
@@ -427,9 +462,9 @@ aside li:not(:first-child):hover {
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
   z-index: 10;
 
-
 }
-aside li:hover h5 , aside li:hover .read-more {
+
+aside li:hover h5, aside li:hover .read-more {
   transform: translateY(-100px);
   transition: transform .5s linear;
 }
@@ -447,7 +482,6 @@ aside h5 {
   left: 0;
 }
 
-
 aside li .read-more {
   width: 100%;
   height: 100px;
@@ -459,17 +493,20 @@ aside li .read-more {
   vertical-align: middle;
   position: absolute;
   top: 100%;
-  left:0;
+  left: 0;
   z-index: 11;
 }
 
-
+.footer-container {
+  position: relative;
+  z-index: 12;
+}
 
 .site-footer {
   background-color: #1E2024;
   overflow: auto;
   position: relative;
-  z-index: 12;
+  /*z-index: 12;*/
 
 }
 
@@ -634,7 +671,7 @@ a:hover {
 .brochure-download:hover,
 .brochure-download:active
 .brochure-download:link,
-.brochure-download:visited{
+.brochure-download:visited {
   color: #FFFFFF;
 }
 
@@ -653,7 +690,6 @@ a:hover {
     float: right;
 
   }
-
 
   .top-bar {
     width: 100%;
@@ -691,9 +727,10 @@ a:hover {
     margin: 66px 0 0 0;
     padding: 0;
   }
+
   .top-bar {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     background-color: #fff;
@@ -718,8 +755,27 @@ a:hover {
     display: none;
   }
 
-  #burger {
+  #burger, .x-close {
     display: none;
+
+  }
+
+  .burger-menu:after {
+
+    font-family: 'icomoon';
+    speak: none;
+    color: #474747;
+    content: '\e9bd';
+    margin-right: 10px;
+  }
+  .x-close:after {
+
+    font-family: 'icomoon';
+    speak: none;
+    color: #474747;
+    content: '\ea0f';
+    margin-right: 10px;
+
   }
 
   header label {
@@ -727,6 +783,13 @@ a:hover {
     float: right;
     line-height: 66px;
     font-size: 1.5rem;
+  }
+  input[type=checkbox]:checked ~ label .x-close {
+    display: inline-block;
+  }
+
+  input[type=checkbox]:checked ~ label .burger-menu {
+    display: none;
   }
 
   input[type=checkbox]:checked ~ nav {
@@ -813,12 +876,14 @@ a:hover {
   }
 
   .engage {
-    height: 250vw;
+    height: 50vw;
+
   }
 
   .engage-headerholder {
     width: 100%;
     float: none;
+
   }
 
   .engage-ul-container {
@@ -826,14 +891,13 @@ a:hover {
     float: none;
   }
 
-  figure  {
+  figure {
     width: initial;
     height: initial;
-    position: absolute ;
-    top:65%;
+    position: absolute;
+    top: 65%;
 
   }
-
 
   .enhance-and-deploy {
     height: auto;
@@ -865,6 +929,15 @@ a:hover {
     height: 400px;
   }
 
+  .brochure-top-header {
+    display: none;
+  }
+
+  .brochure, .demo , .brochure-top-header, .brochure-download , .brochure-bottom, .schedule-ibc{
+    float: none;
+    width: 100%;
+    font-size: 1.5rem;
+  }
   aside li {
     float: none;
     width: 100%;

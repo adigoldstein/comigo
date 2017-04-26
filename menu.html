@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0
+    }
+    nav {
+      position: relative;
+      height: 66px;
+      background-color: white;
+    }
+
+    nav ul, li {
+      display: block;
+      height: 100%;
+    }
+    nav ul ul {
+      height: 130px;
+      /*display: flex;*/
+      /*align-items: center;*/
+      /*vertical-align: middle;*/
+    }
+
+    nav > ul {
+      float: right;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    nav >ul >li {
+
+    }
+
+    nav li {
+      display: inline-block;
+      width: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    nav > ul > li > ul {
+      display: flex;
+      position: absolute;
+      left:0;
+      top: 65px;
+      width: 100vw;
+      background-color: red;
+      transform: scale(1, 0);
+      transform-origin: top;
+      transition: transform 0.2s;
+      /*z-index: 0;*/
+
+    }
+    nav ul ul li {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li:hover > ul {
+      /*display: flex;*/
+      /*z-index: 0;*/
+      transform: scale(1, 1);
+
+    }
+    nav ul ul ul {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      transform: scale(1, 0);
+      transition: transform 0.2s;
+      background-color: yellow;
+      transform-origin: top;
+      display: flex;
+      flex-grow: 1;
+
+
+    }
+
+  </style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li>Home</li>
+    <li>
+      <span>XXXXX</span>
+      <ul>
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc
+          <ul>
+            <li>WOW</li>
+            <li>WEE</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <span>YYYYY</span>
+      <ul>
+        <li>ddd</li>
+        <li>eee</li>
+        <li>fff</li>
+      </ul>
+
+    </li>
+    <li>ZZZZZ</li>
+  </ul>
+</nav>
+
+</body>
+</html>

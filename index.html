@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Comigo Clone</title>
+  <title>Comigo</title>
   <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="images/icomoon/style.css">
   <!--Source sans pro font-->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
 </head>
@@ -16,7 +17,10 @@
     <a href="#"><img src="images/logo/comigo-logo-black.png" alt="Comigo Logo"></a>
   </div>
   <input type="checkbox" id="burger">
-  <label for="burger">Menu</label>
+  <label for="burger">
+    <span class="burger-menu"></span>
+    <span class="x-close"></span>
+  </label>
   <nav class="main-manu clearfix">
     <ul>
       <li>
@@ -72,6 +76,7 @@
 
   <section class="engage clearfix">
     <div class="section-centered">
+
       <div class="engage-headerholder">
         <h3>ENGAGE <br> VIEWERS, <br> DIFFERENTIATE <br> EXPERIENCE <br> AND <br> DRIVE NEW <br> REVENUE</h3>
         <h4>with highly-relevant contextual services</h4>
@@ -155,12 +160,14 @@
     </div>
     <div class="brochure-bottom">
       <div class="social-div">
-        <ul>
-          <li><a class="social-icon" href="">f</a></li>
-          <li><a class="social-icon" href="">tw</a></li>
-          <li><a class="social-icon" href="">in</a></li>
-          <li><a class="social-icon" href="">utube</a></li>
-        </ul>
+        <div class="social-container">
+          <ul>
+            <li><a class="social-icon facebook" href=""></a></li>
+            <li><a class="social-icon twitter" href=""></a></li>
+            <li><a class="social-icon linkdin" href=""></a></li>
+            <li><a class="social-icon youtube" href=""></a></li>
+          </ul>
+        </div>
       </div>
       <div class="schedule-ibc">
         <a href=""> SCHEDULE A MEETING AT IBC 2016</a>
