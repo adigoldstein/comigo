@@ -5,6 +5,7 @@ body {
   width: 100%;
   height: 100%;
 
+
 }
 
 body {
@@ -660,12 +661,12 @@ a:hover {
   color: #151515;
 }
 
-.sub-manu a:hover,
-.sub-manu a:active,
-.deep-manu a:hover,
-.deep-manu a:active {
+nav > ul >li > ul >li:hover,
+nav > ul >li > ul >li:active,
+nav > ul >li > ul >li > ul > li:hover,
+nav > ul >li > ul >li >ul > li:active {
   background-color: #f14848;
-  color: #FFFFFF;
+  color: #FFFFFF ;
 }
 
 .brochure-download:hover,
@@ -723,6 +724,9 @@ a:hover {
 /********************Media below 700 px***********************/
 
 @media (max-width: 700px) {
+  nav {
+    display: none;
+  }
   body {
     margin: 66px 0 0 0;
     padding: 0;
@@ -800,8 +804,8 @@ a:hover {
     list-style: none;
   }
 
-  .sub-manu > ul,
-  .deep-manu > ul {
+  nav  ul  ul,
+  nav ul ul  ul {
     list-style: ground-level;
   }
 
