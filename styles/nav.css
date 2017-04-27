@@ -1,8 +1,8 @@
 @media (min-width: 701px) {
 
   /*header {*/
-    /*display: flex;*/
-    /*justify-content: space-between;*/
+  /*display: flex;*/
+  /*justify-content: space-between;*/
   /*}*/
 
   nav * {
@@ -15,7 +15,10 @@
     position: relative;
     height: 66px;
     background-color: white;
-
+    display: flex;
+  }
+  nav li.logo {
+    flex-grow: 1;
   }
 
   nav ul, li {
@@ -24,16 +27,14 @@
   }
   nav ul ul {
     height: 130px;
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*vertical-align: middle;*/
+
   }
 
   nav > ul {
-    float: right;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
   }
   nav >ul >li {
     padding-right: 20px;
