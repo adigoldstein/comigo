@@ -187,6 +187,7 @@ figure img {
 
 .engage h4 {
   font-weight: lighter;
+  margin-bottom: 0;
 }
 
 .enhance {
@@ -377,7 +378,6 @@ figure img {
   width: 35%;
   height: 20.25vw;
   background-color: #F9F9F9;
-
 }
 
 .social-container ul {
@@ -385,37 +385,47 @@ figure img {
   justify-content: center;
   align-items: center;
   width: auto;
+  padding: 20px;
 }
 .social-container:first-child {
-  margin-top:30% ;
+  margin-top:20% ;
 
 }
 
 .social-icon {
   font-family: 'icomoon';
   speak: none;
-  color: #474747;
-  font-size: 36px;
-  padding: 10px;
+  color: #FFFFFF;
+  font-size: 35px;
+  padding: 18px;
+  margin: 20px;
+  background-color: #e74c3c;
+  border-radius : 50%
 }
+
 
 .facebook:after {
   content: '\ea90';
+  color: #FFFFFF;
+
 
 }
 
 .twitter:after {
   content: '\ea96';
+  color: #FFFFFF;
 
 }
 
 .linkdin:after {
   content: '\eac9';
+  color: #FFFFFF;
 
 }
 
 .youtube:after {
   content: '\ea9d';
+  color: #FFFFFF;
 
 }
 
@@ -665,7 +675,7 @@ nav ul ul ul:visited {
 
 
 .brochure-download:hover,
-.brochure-download:active
+.brochure-download:active,
 .brochure-download:link,
 .brochure-download:visited {
   color: #FFFFFF;
@@ -715,12 +725,6 @@ nav ul ul ul:visited {
 
   }
 
-  /*nav > ul > li > ul > li:hover ,*/
-  /*nav > ul > li > ul > li:active {*/
-    /*background-color: initial;*/
-    /*color: black;*/
-  /*}*/
-
   nav > ul > li > ul > li:hover,
   nav > ul > li > ul > li:active {
     background-color: #f14848;
@@ -743,8 +747,6 @@ nav ul ul ul:visited {
   nav > ul > li > ul > li:active ul li:hover a{
     color: #F9F9F9;
   }
-
-
 
 
 }
@@ -942,7 +944,7 @@ nav ul ul ul:visited {
   }
 
   .engage {
-    height: 220vw;
+    height: 520px;
   }
 
   .engage-headerholder {
@@ -1016,6 +1018,8 @@ nav ul ul ul:visited {
 
   }
 
+
+
   .left-section-brochure, .brochure-top, .brochure-top-header, .brochure-learn-more, .brochure-download, .brochure-bottom, .social-div, .social-container, .schedule-ibc, .right-section-demo {
     float: none;
     width: 100%;
@@ -1033,13 +1037,27 @@ nav ul ul ul:visited {
     justify-content: center;
   }
 
+
   .left-section-brochure span {
     margin: 0;
     padding: 0;
   }
 
-  .social-container ul {
+  .social-container:first-child {
     margin: 0;
+  }
+  .social-container {
+    padding: 5%;
+  }
+  .social-container li {
+    padding: 20px;
+  }
+  .schedule-ibc , .right-section-demo{
+    height: 45vw;
+  }
+  .right-section-demo h3 {
+    margin: 0;
+
   }
 
   aside li {
@@ -1062,6 +1080,10 @@ nav ul ul ul:visited {
   aside li:hover h5, aside li:hover .read-more {
     transform: none;
     transition: transform .5s linear;
+  }
+
+  .site-footer ul {
+    padding: 9px;
   }
 }
 
