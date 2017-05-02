@@ -346,11 +346,10 @@ figure img {
   height: 100%;
   background-color: #F9F9F9;
 }
+
 .brochure-top-header h3 {
   padding-left: 5%;
 }
-
-
 
 .brochure-download {
   float: right;
@@ -387,8 +386,9 @@ figure img {
   width: auto;
   padding: 20px;
 }
+
 .social-container:first-child {
-  margin-top:20% ;
+  margin-top: 20%;
 
 }
 
@@ -400,14 +400,12 @@ figure img {
   padding: 18px;
   margin: 20px;
   background-color: #e74c3c;
-  border-radius : 50%
+  border-radius: 50%
 }
-
 
 .facebook:after {
   content: '\ea90';
   color: #FFFFFF;
-
 
 }
 
@@ -666,13 +664,11 @@ a:hover {
   color: #FFFFFF;
 }
 
-
 nav ul ul ul:link,
 nav ul ul ul:visited {
   background-color: #fff;
   color: #151515;
 }
-
 
 .brochure-download:hover,
 .brochure-download:active,
@@ -732,22 +728,21 @@ nav ul ul ul:visited {
   }
 
   nav > ul > li > ul > li:hover li:hover,
-  nav > ul > li > ul > li:active li:hover{
+  nav > ul > li > ul > li:active li:hover {
     background-color: #f14848;
     color: #FFFFFF;
 
   }
 
   nav > ul > li > ul > li > ul > li:hover a,
-  nav > ul > li > ul > li > ul > li:active a{
+  nav > ul > li > ul > li > ul > li:active a {
     background-color: #f14848;
     color: #FFFFFF;
   }
 
-  nav > ul > li > ul > li:active ul li:hover a{
+  nav > ul > li > ul > li:active ul li:hover a {
     color: #F9F9F9;
   }
-
 
 }
 
@@ -757,11 +752,11 @@ nav ul ul ul:visited {
   nav {
     display: flex;
   }
+
   .logo {
     display: flex;
     justify-content: space-between;
   }
-
 
   body {
     margin: 66px 0 0 0;
@@ -791,7 +786,7 @@ nav ul ul ul:visited {
     vertical-align: middle;
   }
 
-  .main-manu {
+  .main-menu {
     display: none;
   }
 
@@ -820,14 +815,15 @@ nav ul ul ul:visited {
     font-size: 35px;
 
   }
+
   .logo-first-li {
     display: none;
   }
-  nav >a {
+
+  nav > a {
     padding-top: 20px;
     padding-left: 3%;
   }
-
 
   nav {
     display: block;
@@ -837,6 +833,7 @@ nav ul ul ul:visited {
     display: none;
     list-style: none;
   }
+
   nav ul li {
     padding: 2px 3px;
 
@@ -860,11 +857,12 @@ nav ul ul ul:visited {
   input[type=checkbox]:checked ~ ul {
     display: block;
   }
-  input[type=checkbox]:checked ~ ul ul{
+
+  input[type=checkbox]:checked ~ ul ul {
     display: block;
   }
 
-  .main-manu ul {
+  .main-menu ul {
     list-style: none;
   }
 
@@ -897,15 +895,15 @@ nav ul ul ul:visited {
     background-color: #fff;
   }
 
-  .sub-manu a:hover,
-  .sub-manu a:active,
-  .deep-manu a:hover,
-  .deep-manu a:active {
+  .sub-menu a:hover,
+  .sub-menu a:active,
+  .deep-menu a:hover,
+  .deep-menu a:active {
     color: #f14848;
     background-color: #fff;
   }
 
-  .main-manu li {
+  .main-menu li {
     padding: 8px 0;
   }
 
@@ -1018,8 +1016,6 @@ nav ul ul ul:visited {
 
   }
 
-
-
   .left-section-brochure, .brochure-top, .brochure-top-header, .brochure-learn-more, .brochure-download, .brochure-bottom, .social-div, .social-container, .schedule-ibc, .right-section-demo {
     float: none;
     width: 100%;
@@ -1037,7 +1033,6 @@ nav ul ul ul:visited {
     justify-content: center;
   }
 
-
   .left-section-brochure span {
     margin: 0;
     padding: 0;
@@ -1046,15 +1041,19 @@ nav ul ul ul:visited {
   .social-container:first-child {
     margin: 0;
   }
+
   .social-container {
     padding: 5%;
   }
+
   .social-container li {
     padding: 20px;
   }
-  .schedule-ibc , .right-section-demo{
+
+  .schedule-ibc, .right-section-demo {
     height: 45vw;
   }
+
   .right-section-demo h3 {
     margin: 0;
 
