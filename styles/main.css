@@ -678,8 +678,58 @@ nav ul ul ul:visited {
 }
 
 /********************Responsive stuff*********************/
+@media (max-width: 1271px) {
 
-/*********************Width 701 px and above*****************/
+  .red-btn, .white-btn {
+    font-size: 1.2rem;
+  }
+
+  .engage-headerholder h3 {
+    font-size: 1.7rem;
+  }
+
+  .enhance h3, .deploy h3 {
+    font-size: 2rem;
+  }
+
+  .tv-headers {
+    width: 300px;
+  }
+
+  .tv h3 {
+    font-size: 2.4rem;
+  }
+
+  .left-section-brochure h3, .right-section-demo h3, .blog-header-holder h3, aside h3 {
+    font-size: 2.4rem;
+  }
+
+}
+
+@media (max-width: 985px) {
+
+  .red-btn, .white-btn {
+    font-size: 1rem;
+  }
+
+  .why h3, .tv h3, .engage h3 {
+    font-size: 1.8rem;
+  }
+
+  .left-section-brochure h3, .right-section-demo h3, .blog-header-holder h3, aside h3 {
+    font-size: 2.2rem;
+  }
+
+  .engage {
+    height: 45vw;
+  }
+
+  .engage-headerholder h3, .engage-ul-container {
+    padding-top: 35px;
+  }
+
+}
+
 @media (min-width: 701px) {
   ul {
     list-style: none;
@@ -942,7 +992,7 @@ nav ul ul ul:visited {
   }
 
   .engage {
-    height: 520px;
+    height: 1420px;
   }
 
   .engage-headerholder {
@@ -954,14 +1004,19 @@ nav ul ul ul:visited {
   .engage-ul-container {
     width: 100%;
     float: none;
-    padding-top: 0;
+    padding-top: 20px;
+  }
+
+  .engage .engage-ul-container ul {
+    list-style: none;
   }
 
   figure {
     width: initial;
     height: initial;
     position: absolute;
-    top: 50%;
+    top: 48%;
+    right: 9%;
 
   }
 
