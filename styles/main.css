@@ -703,6 +703,10 @@ nav ul ul ul:visited {
   .left-section-brochure h3, .right-section-demo h3, .blog-header-holder h3, aside h3 {
     font-size: 2.4rem;
   }
+  .social-container:first-child {
+    margin-top: 12%;
+  }
+
 
 }
 
